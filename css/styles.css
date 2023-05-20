@@ -1,0 +1,208 @@
+@font-face {
+  font-family: 'AvenirNextCyr-Regular';
+  src:url('../fonts/AvenirNextCyr-Regular.eot?-kwf309');
+  src:url('../fonts/AvenirNextCyr-Regular.eot?#iefix-kwf309') format('embedded-opentype'),
+    url('../fonts/AvenirNextCyr-Regular.woff?-kwf309') format('woff'),
+    url('../fonts/AvenirNextCyr-Regular.ttf?-kwf309') format('truetype'),
+    url('../fonts/AvenirNextCyr-Regular.svg?-kwf309#AA-AvenirNextCyr-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+} 
+
+@font-face {
+  font-family: 'AvenirNextCyr-Bold';
+  src:url('../fonts/AvenirNextCyr-Bold.eot?-kwf309');
+  src:url('../fonts/AvenirNextCyr-Bold.eot?#iefix-kwf309') format('embedded-opentype'),
+    url('../fonts/AvenirNextCyr-Bold.woff?-kwf309') format('woff'),
+    url('../fonts/AvenirNextCyr-Bold.ttf?-kwf309') format('truetype'),
+    url('../fonts/AvenirNextCyr-Bold.svg?-kwf309#AA-AvenirNextCyr-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+} 
+
+@font-face {
+  font-family: 'AvenirNextCyr-Medium';
+  src:url('../fonts/AvenirNextCyr-Medium.eot?-kwf309');
+  src:url('../fonts/AvenirNextCyr-Medium.eot?#iefix-kwf309') format('embedded-opentype'),
+    url('../fonts/AvenirNextCyr-Medium.woff?-kwf309') format('woff'),
+    url('../fonts/AvenirNextCyr-Medium.ttf?-kwf309') format('truetype'),
+    url('../fonts/AvenirNextCyr-Medium.svg?-kwf309#AA-AvenirNextCyr-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+} 
+
+body {
+  margin: 0 !important;
+  font-family: 'AvenirNextCyr-Regular';
+}
+
+.container {
+  width: 100%;
+  max-width:1270px !important;
+  margin:0 auto !important;
+  padding: 0 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+} 
+
+h2 {
+
+}
+
+header {
+
+}
+
+
+/*BURGER*/
+/* 
+.mt-munu-mb {
+  padding: 0 0 0 0;
+}
+
+.burger {
+  display: none !important;
+}
+
+.burger svg {
+  display: inline-block;
+}
+
+
+
+.burger i:nth-of-type(1) {
+  display: block;
+}
+.burger i:nth-of-type(2) {
+  display: none;
+}
+
+.burger.burger-open i:nth-of-type(1) {
+  display: none;
+}
+.burger.burger-open i:nth-of-type(2) {
+  display: block;
+}
+
+.body-open {
+  overflow: hidden;
+}
+
+.mt-mobile {
+  top: 0;
+  right: 0;
+  transition: 0.5s ease all;
+  clip-path: circle(100%);
+  background:#F0F3F5 url(../img/burger-bg.svg) right bottom no-repeat;
+  background-size: cover;
+}
+
+.mt-mobile.nav-open {
+  clip-path: circle(0px at 100% 0px);
+} */
+
+
+.btn {
+	border: 1px solid #505BDF;
+	border-radius: 50px;
+  color:#505BDF;
+}
+
+.copyright {
+  font-family: 'AvenirNextCyr-Medium';
+}
+
+.footer__title {
+  font-family: 'AvenirNextCyr-Medium';
+}
+
+.ft__item {
+  font-family: 'AvenirNextCyr-Medium';
+}
+
+.country__title {
+  font-family: 'AvenirNextCyr-Bold';
+}
+
+.swp__title {
+  font-family: 'AvenirNextCyr-Bold';
+}
+
+.price {
+  font-size: 50px;
+  font-family: 'AvenirNextCyr-Bold';
+}
+
+.price span {
+  font-size: 16px;
+  font-family: 'AvenirNextCyr-Regular';
+}
+
+
+.step__title {
+  font-family: 'AvenirNextCyr-Bold';
+}
+
+.about__title {
+  font-family: 'AvenirNextCyr-Bold';
+}
+
+footer {
+  border-radius: 45px 45px 0 0;
+
+}
+
+.planet {
+  background:#505BDF url(../img/planet.png) 0 50% no-repeat;
+  background-size: 25%;
+}
+
+.planet__title {
+  font-family: 'AvenirNextCyr-Bold';
+}
+
+
+ul.tabs {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+ul.tabs li {
+  cursor: pointer;
+
+  color: #505BDF;
+  position: relative;
+  opacity: 0.5;
+}
+
+
+ul.tabs li:hover {
+}
+
+ul.tabs li.current {
+  color: #0A0A0A;
+  opacity: 1;
+  background: url(../img/ta-icon.svg) 50% 102% no-repeat;
+}
+
+
+
+.tab-content {
+  padding: 0 0 0 0;
+  height: 0;
+  opacity: 0;
+  display: block;
+  overflow: hidden;
+}
+
+.tab-content.current{
+  position: relative;
+  height: auto;
+  display: block;
+  opacity: 1;
+}
